@@ -1,5 +1,0 @@
-scoreboard players reset #character.rotate V
-execute unless score #joyY V matches ..-1 if score #moveHolding V matches 0 rotated as @s as @e[limit=1,tag=this.origin.data,type=marker] run return run function zenless:entity/player/character/move/state/diagonal/forward-start-move
-execute unless score #joyY V matches ..-1 rotated as @s as @e[limit=1,tag=this.origin.data,type=marker] run return run function zenless:entity/player/character/move/state/diagonal/forward-holding-move
-execute if score #joyY V matches ..-1 rotated as @s rotated ~180 0 if score #moveHolding V matches 0 as @e[limit=1,tag=this.origin.data,type=marker] run return run function zenless:entity/player/character/move/state/diagonal/backward-start-move
-execute if score #joyY V matches ..-1 rotated as @s rotated ~180 0 as @e[limit=1,tag=this.origin.data,type=marker] run return run function zenless:entity/player/character/move/state/diagonal/backward-holding-move

@@ -1,1 +1,0 @@
-execute unless function zenless:entity/player/util/condition/on-data run function zenless:entity/player/system/control/core

@@ -1,1 +1,0 @@
-execute as @e[tag=this.origin.character,tag=controller,type=interaction] positioned ~ ~2 ~ run function zenless:entity/player/character/fov/position/set
