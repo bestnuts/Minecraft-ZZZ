@@ -1,0 +1,2 @@
+execute positioned ^ ^ ^.5 unless block ~ ~.5 ~ #package:move-block unless block ~ ~1.5 ~ #package:move-block run tp @s ^ ^ ^-.75
+execute at @s if block ~ ~ ~ #package:move-half if block ~ ~1 ~ #package:move-air if block ~ ~2 ~ #package:move-air run return run tp @s ~ ~.5 ~

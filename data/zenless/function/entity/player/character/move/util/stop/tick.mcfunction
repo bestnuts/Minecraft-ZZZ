@@ -1,0 +1,2 @@
+scoreboard players add #stopMoveCool V 1
+execute if score #stopMoveID V matches 1 if score #stopMoveCool V matches 10.. run return run function zenless:entity/player/character/move/util/stop/reset {id:1}

@@ -1,0 +1,4 @@
+execute if score #character.rotate V matches 1 as @e[limit=1,tag=this.origin.data,type=marker] at @s anchored eyes rotated as @a[limit=1,tag=this.origin.player] positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^1 facing entity @s eyes facing ^ ^ ^-1 run rotate @s ~ 0
+execute if score #character.rotate V matches -1 as @e[limit=1,tag=this.origin.data,type=marker] at @s anchored eyes rotated as @a[limit=1,tag=this.origin.player] rotated ~180 ~ positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^1 facing entity @s eyes facing ^ ^ ^-1 run rotate @s ~ 0
+summon marker ~ ~ ~ {Tags:["kill","correction"]}
+execute as @e[limit=1,tag=kill,tag=correction,type=marker] run function zenless:entity/player/character/move/rotation/correction-start

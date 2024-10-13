@@ -1,0 +1,1 @@
+$function zenless:entity/player/character/$(name)/core

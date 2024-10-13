@@ -1,0 +1,2 @@
+execute store result storage zzz main.value.data.save.controller.delta.x int 1 run scoreboard players get #joyX V
+execute store result storage zzz main.value.data.save.controller.delta.y int 1 run scoreboard players get #joyY V

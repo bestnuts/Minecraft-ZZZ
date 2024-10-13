@@ -1,0 +1,2 @@
+summon marker ~ ~ ~ {Tags:["kill","delta"]}
+execute as @e[limit=1,tag=kill,tag=delta,type=marker] run function zenless:entity/player/character/move/calculator/delta-start with storage zzz main.value.controller

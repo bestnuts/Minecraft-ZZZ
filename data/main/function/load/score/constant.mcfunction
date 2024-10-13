@@ -1,0 +1,1 @@
+scoreboard players set #camera.range C 25
